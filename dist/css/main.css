@@ -1,0 +1,169 @@
+@font-face {
+  font-display: swap;
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/red-hat-display-v14-latin-500.eot");
+  src: url("../fonts/red-hat-display-v14-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/red-hat-display-v14-latin-500.woff2") format("woff2"), url("../fonts/red-hat-display-v14-latin-500.woff") format("woff"), url("../fonts/red-hat-display-v14-latin-500.ttf") format("truetype"), url("../fonts/red-hat-display-v14-latin-500.svg") format("svg");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/red-hat-display-v14-latin-700.eot");
+  src: url("../fonts/red-hat-display-v14-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/red-hat-display-v14-latin-700.woff2") format("woff2"), url("../fonts/red-hat-display-v14-latin-700.woff") format("woff"), url("../fonts/red-hat-display-v14-latin-700.ttf") format("truetype"), url("../fonts/red-hat-display-v14-latin-700.svg") format("svg");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/red-hat-display-v14-latin-900.eot");
+  src: url("../fonts/red-hat-display-v14-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/red-hat-display-v14-latin-900.woff2") format("woff2"), url("../fonts/red-hat-display-v14-latin-900.woff") format("woff"), url("../fonts/red-hat-display-v14-latin-900.ttf") format("truetype"), url("../fonts/red-hat-display-v14-latin-900.svg") format("svg");
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(225deg, 100%, 94%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0.5rem;
+}
+body .wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body a {
+  color: hsl(245deg, 75%, 52%);
+}
+
+.card {
+  max-width: 500px;
+  border-radius: 25px;
+  background-color: hsl(0deg, 100%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+.card img {
+  display: block;
+  width: 100%;
+}
+.card > img {
+  margin-bottom: 3rem;
+}
+.card .cardinfo {
+  padding: 0 2rem;
+  color: hsl(224deg, 23%, 55%);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.card .cardinfo .title {
+  font-weight: 900;
+  font-size: 2.2rem;
+  color: hsl(223deg, 47%, 23%);
+  margin-bottom: 1.6rem;
+}
+.card .cardinfo .text {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+.card .cardinfo .info {
+  background-color: hsl(225deg, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1.4rem;
+  gap: 1.8rem;
+  margin-bottom: 2rem;
+}
+.card .cardinfo .info .image {
+  display: block;
+  width: 5rem;
+}
+.card .cardinfo .info .plan {
+  text-align: left;
+  flex: 1;
+  line-height: 2.2rem;
+}
+.card .cardinfo .info .plan span {
+  display: block;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+}
+.card .cardinfo .info a {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.card .cardinfo button {
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  border: 0;
+  background-color: hsl(0deg, 100%, 100%);
+}
+
+/*# sourceMappingURL=main.css.map */

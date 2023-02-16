@@ -1,1 +1,71 @@
 .card
+    max-width: 500px
+    border-radius: 25px
+    background-color: $color-card
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    overflow: hidden
+    text-align: center
+
+    img
+        display: block
+        width: 100%
+
+    > img
+        margin-bottom: 3rem
+
+    .cardinfo
+        padding: 0 2rem
+        color: $color-text
+        font-size: 1.5rem
+        line-height: 2.5rem
+
+        .title
+            font-weight: 900
+            font-size: 2.2rem
+            color: $color-heading
+            margin-bottom: 1.6rem
+
+        .text
+            margin-bottom: 2rem
+            padding: 0 1rem
+        
+        .info
+            background-color: $color-info
+            display: flex
+            justify-content: space-between
+            align-items: center
+            border-radius: 20px
+            padding: 1.4rem
+            gap: 1.8rem
+            margin-bottom: 2rem
+    
+            .image
+                display: block
+                width: 5rem
+
+            .plan
+                text-align: left
+                flex: 1
+                line-height: 2.2rem
+            
+                span
+                    display: block
+                    font-weight: 900
+                    color: $color-heading
+
+            a
+                font-weight: 700
+                font-size: 1.4rem
+
+        button
+            display: block
+            width: 100%
+            font-weight: 700
+            border: 0
+            background-color: $color-card
+
+            .proceed
+            .cancel
